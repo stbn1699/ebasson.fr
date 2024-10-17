@@ -1,0 +1,69 @@
+.sharecookbook-main {
+	background-color: #f2e8cf;
+	border:           1px solid rgba(255, 255, 255, 0.3);
+	border-radius:    16px;
+	box-shadow:       0 4px 30px rgba(0, 0, 0, 0.1);
+	display:          flex;
+	flex-direction:   column;
+	font-family:      'Josefin Slab', serif;
+	font-weight:      bold;
+	justify-content:  space-between;
+	margin:           0 9vw;
+	min-height:       84vh; /* Adjust this value to match the header height */
+}
+
+.sharecookbook-title {
+	background:    #6a994e; /* Fond vert */
+	border-radius: 16px 16px 0 0;
+	color:         #f2e8cf; /* Couleur beige */
+	font-size:     4rem;
+	margin:        0;
+	padding:       2.2vh 0 .5rem;
+	text-align:    center;
+	width:         100%;
+}
+
+.sharecookbook-description {
+	align-items:     center;
+	display:         flex;
+	flex-grow:       1;
+	font-size:       1.5rem;
+	justify-content: center;
+	line-height:     1.6;
+	margin:          0 auto;
+	max-height:      50vh; /* Define a maximum height */
+	overflow:        auto;
+	text-align:      justify;
+	width:           45vw;
+}
+
+.sharecookbook-buttons {
+	display:         flex;
+	height:          10vh;
+	justify-content: center;
+	width:           100%;
+}
+
+.sharecookbook-buttons button {
+	background-color: #6a994e;
+	border:           3px solid #386641;
+	border-radius:    .7rem;
+	cursor:           pointer;
+	font-family:      'Josefin Slab', serif;
+	font-size:        1.5rem;
+	font-weight:      bold;
+	height:           4rem;
+	margin:           0.5rem;
+	padding:          0.75rem 1.5rem;
+	width:            16rem;
+}
+
+.sharecookbook-buttons button:hover {
+	background-color: #557a3e; /* Couleur plus foncée pour le survol */
+}
+
+@media (max-width: 1030px) {
+	.sharecookbook-description {
+		width: 90%;
+	}
+}
