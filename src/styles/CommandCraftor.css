@@ -1,0 +1,115 @@
+@import "fonts.css";
+
+.commandCraftor-main {
+	background:         url("../img/background.webp") repeat center center;
+	background-color:   #F2E8CF;
+	border:             1px solid rgba(255, 255, 255, 0.3);
+	border-radius:      16px;
+	-moz-box-shadow:    0 0 93px 29px rgba(0, 0, 0, 0.75) inset;
+	-webkit-box-shadow: 0 0 93px 29px rgba(0, 0, 0, 0.75) inset;
+	box-shadow:         0 4px 30px rgba(0, 0, 0, 0.1), 0 0 93px 29px rgba(0, 0, 0, 0.75) inset;
+	color:              #DDD;
+	display:            flex;
+	flex-direction:     column;
+	font-family:        'minecraft', serif;
+	font-weight:        bold;
+	justify-content:    space-between;
+	margin:             0 9vw;
+	min-height:         84vh;
+}
+
+.commandCraftor-main *::-webkit-scrollbar {
+	width: 18px;
+}
+
+.commandCraftor-main *::-webkit-scrollbar-track {
+	background:    #000;
+	border-radius: 1px;
+}
+
+.commandCraftor-main *::-webkit-scrollbar-thumb {
+	background:    #C0C0C0;
+	border-bottom: 4px solid #808080;
+	border-radius: 1px;
+	border-right:  4px solid #808080;
+}
+
+.commandCraftor-title {
+	border-radius: 16px 16px 0 0;
+	font-size:     4rem;
+	margin:        0;
+	padding:       2.2vh 0 .5rem;
+	text-align:    center;
+	width:         100%;
+}
+
+.commandCraftor-description {
+	align-items:     center;
+	display:         flex;
+	flex-grow:       1;
+	font-size:       1.5rem;
+	justify-content: center;
+	line-height:     1.6;
+	margin:          0 auto;
+	max-height:      55vh;
+	overflow:        auto;
+	padding:         .5rem;
+	text-align:      justify;
+	width:           45vw;
+}
+
+.commandCraftor-buttons {
+	display:         flex;
+	height:          10vh;
+	justify-content: center;
+	width:           100%;
+}
+
+.mc-button.btn-taille-square .title {
+	padding: 0;
+}
+
+.mc-button {
+	background:      #999 url("https://i.ibb.co/rb2TWXL/bgbtn.png") center/cover;
+	border:          2px solid #000;
+	cursor:          pointer;
+	image-rendering: pixelated;
+	overflow:        hidden;
+	user-select:     none;
+	white-space:     nowrap;
+	width:           16rem;
+}
+
+.mc-button:hover .title {
+	background-color: rgba(100, 100, 255, 0.45);
+	color:            #FFFFA0;
+	text-shadow:      2px 2px #202013CC;
+}
+
+.mc-button:active .title {
+	box-shadow: inset -2px -4px #0004, inset 2px 2px #FFF5;
+}
+
+.mc-button .title {
+	align-items:     center;
+	box-shadow:      inset -2px -4px #0006, inset 2px 2px #FFF7;
+	color:           #DDD;
+	display:         flex;
+	font-family:     "Minecraft", sans-serif;
+	font-size:       2rem;
+	height:          100%;
+	justify-content: center;
+	padding-bottom:  0.3em;
+	padding-top:     0.3em;
+	text-shadow:     2px 2px #000A;
+	width:           100%;
+}
+
+.mc-button.lang img {
+	height: 26px;
+	width:  26px;
+}
+
+.mc-button.lang .title {
+	padding-bottom: 0;
+}

@@ -4,3 +4,8 @@
 	font-weight: 500;
 	src: url('typo/JosefinSlab.woff2') format('woff2');
 }
+
+@font-face {
+	font-family: "minecraft";
+	src:         url("typo/minecraft.otf")
+}
