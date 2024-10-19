@@ -1,5 +1,7 @@
+@import url('./fonts.css');
+
 .sharecookbook-main {
-	background-color: #f2e8cf;
+	background-color: #F2E8CF;
 	border:           1px solid rgba(255, 255, 255, 0.3);
 	border-radius:    16px;
 	box-shadow:       0 4px 30px rgba(0, 0, 0, 0.1);
@@ -9,13 +11,13 @@
 	font-weight:      bold;
 	justify-content:  space-between;
 	margin:           0 9vw;
-	min-height:       84vh; /* Adjust this value to match the header height */
+	min-height:       84vh;
 }
 
 .sharecookbook-title {
-	background:    #6a994e; /* Fond vert */
+	background:    #6A994E; /* Fond vert */
 	border-radius: 16px 16px 0 0;
-	color:         #f2e8cf; /* Couleur beige */
+	color:         #F2E8CF; /* Couleur beige */
 	font-size:     4rem;
 	margin:        0;
 	padding:       2.2vh 0 .5rem;
@@ -45,7 +47,7 @@
 }
 
 .sharecookbook-buttons button {
-	background-color: #6a994e;
+	background-color: #6A994E;
 	border:           3px solid #386641;
 	border-radius:    .7rem;
 	cursor:           pointer;
@@ -59,7 +61,7 @@
 }
 
 .sharecookbook-buttons button:hover {
-	background-color: #557a3e; /* Couleur plus foncée pour le survol */
+	background-color: #557A3E; /* Couleur plus foncée pour le survol */
 }
 
 @media (max-width: 1030px) {
