@@ -17,13 +17,13 @@ const CommandCraftor: React.FC = () => {
 			</p>
 			<div className="commandCraftor-buttons">
 				<div className="McButtons" data-testid="ButtonsJavaEdition">
-					<div className="mc-button full">
-						<div className="title">test</div>
+					<div className="mc-button full" onClick={() => window.open("https://commandcraftor.ebasson.fr/", "_blank")}>
+						<div className="title">Acceder au projet</div>
 					</div>
 				</div>
 				<div className="McButtons" data-testid="ButtonsJavaEdition">
-					<div className="mc-button full">
-						<div className="title">test</div>
+					<div className="mc-button full" onClick={() => window.open("https://github.com/ESI4-2024-2025/command_craftor", "_blank")}>
+						<div className="title">Acceder au GitHub</div>
 					</div>
 				</div>
 			</div>
