@@ -12,6 +12,12 @@ header {
 	margin:          3vh 9vw;
 }
 
+nav {
+	display:         flex;
+	justify-content: center;
+	width:           100%;
+}
+
 nav ul {
 	display:         flex;
 	justify-content: center;
@@ -38,16 +44,25 @@ nav ul li a {
 	display:         flex;
 	flex-grow:       1;
 	justify-content: flex-end;
+	margin-right:    1rem;
 }
 
 .menu-box {
 	background:    rgba(0, 0, 0, 0.8);
 	border-radius: 8px;
+	opacity:       1;
 	padding:       1rem;
 	position:      absolute;
 	right:         9vw;
-	top:           6vh;
+	top:           10vh;
+	transition:    opacity 0.3s ease, visibility 0.3s ease;
+	visibility:    visible;
 	width:         200px;
+}
+
+.menu-box.hidden {
+	opacity:    0;
+	visibility: hidden;
 }
 
 .menu-box ul {
@@ -74,5 +89,10 @@ nav ul li a {
 		color:      white;
 		cursor:     pointer;
 		font-size:  2rem;
+		transition: transform 0.3s ease;
+	}
+
+	.menu-button.active {
+		transform: rotate(90deg);
 	}
 }

@@ -22,15 +22,26 @@ const Header: React.FC = () => {
 	return (
 		<header>
 			<nav>
-				<div className="menu-container">
-					{isMobile ? (
-						<button onClick={() => setIsMenuOpen(!isMenuOpen)} className="menu-button">
+				{isMobile ? (
+					<div className="menu-container">
+						<button onClick={() => setIsMenuOpen(!isMenuOpen)} className={`menu-button ${isMenuOpen ? "active" : ""}`}>
 							<FontAwesomeIcon icon={isMenuOpen ? faTimes : faBars}/>
 						</button>
-					) : null}
-				</div>
-				{isMobile && isMenuOpen && (
-					<div className="menu-box">
+					</div>
+				) : null}
+				{isMobile && (
+					<div className={`menu-box ${isMenuOpen ? "" : "hidden"}`}>
+						<ul>
+							<li><Link to="/">Home</Link></li>
+							<li><Link to="/shareCookBook">ShareCookBook</Link></li>
+							<li><Link to="/mythorium">Mythorium</Link></li>
+							<li><Link to="/commandCraftor">CommandCraftor</Link></li>
+							<li><Link to="/contact">Contact</Link></li>
+						</ul>
+					</div>
+				)}
+				{!isMobile && (
+					<div className="menu-box-desktop">
 						<ul>
 							<li><Link to="/">Home</Link></li>
 							<li><Link to="/shareCookBook">ShareCookBook</Link></li>
