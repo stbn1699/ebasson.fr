@@ -1,0 +1,63 @@
+@import "fonts.css";
+
+.mythorium-main {
+	background-color: #161618;
+	border:           1px solid rgba(255, 255, 255, 0.3);
+	border-radius:    16px;
+	box-shadow:       0 4px 30px rgba(0, 0, 0, 0.1);
+	color:            #EBEBEC;
+	display:          flex;
+	flex-direction:   column;
+	font-family:      "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+	justify-content:  space-between;
+	margin:           0 9vw;
+	min-height:       84vh;
+}
+
+
+
+.mythorium-title {
+	border-radius: 16px 16px 0 0;
+	font-size:     4rem;
+	margin:        0;
+	padding:       2.2vh 0 .5rem;
+	text-align:    center;
+	width:         100%;
+}
+
+.mythorium-description {
+	display:         flex;
+	flex-grow:       1;
+	font-size:       1.5rem;
+	justify-content: center;
+	line-height:     1.6;
+	margin:          0 auto;
+	max-height:      55vh;
+	overflow:        auto;
+	padding:         .5rem;
+	text-align:      justify;
+	width:           45vw;
+}
+
+.mythorium-buttons {
+	color:           #7B97AA;
+	display:         flex;
+	gap:             2rem;
+	height:          10vh;
+	justify-content: center;
+	width:           100%;
+}
+
+.mythorium-buttons a{
+	cursor: pointer;
+}
+
+.mythorium-buttons a:hover{
+	color: #84a59d;
+}
+
+@media (max-width: 1030px) {
+	.mythorium-description {
+		width: 90%;
+	}
+}

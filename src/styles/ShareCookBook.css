@@ -37,6 +37,7 @@
 	overflow:        auto;
 	text-align:      justify;
 	width:           45vw;
+	padding:         .5rem;
 }
 
 .sharecookbook-buttons {
