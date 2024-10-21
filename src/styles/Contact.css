@@ -1,0 +1,29 @@
+.contact-main {
+	align-items:     center;
+	display:         flex;
+	flex-direction:  column;
+	justify-content: center;
+	padding:         2rem;
+}
+
+.contact-title {
+	color:         ghostwhite;
+	font-size:     4rem;
+	margin-bottom: 2rem;
+}
+
+.contact-links {
+	font-size:   2rem;
+	line-height: 4rem;
+	text-align:  center;
+}
+
+.contact-links a {
+	color:           ghostwhite;
+	text-decoration: none;
+}
+
+.contact-links a:hover {
+	color:           ghostwhite;
+	text-decoration: underline;
+}
