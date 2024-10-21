@@ -96,3 +96,10 @@ nav ul li a {
 		transform: rotate(90deg);
 	}
 }
+
+@media (max-width: 730px) {
+	header {
+		flex-direction: column;
+		margin:         1rem 1vw;
+	}
+}

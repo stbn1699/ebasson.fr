@@ -3,8 +3,6 @@
 .commandCraftor-main {
 	background:         url("../img/background.webp") repeat center center;
 	background-color:   #F2E8CF;
-	border:             1px solid rgba(255, 255, 255, 0.3);
-	border-radius:      16px;
 	-moz-box-shadow:    0 0 93px 29px rgba(0, 0, 0, 0.75) inset;
 	-webkit-box-shadow: 0 0 93px 29px rgba(0, 0, 0, 0.75) inset;
 	box-shadow:         0 4px 30px rgba(0, 0, 0, 0.1), 0 0 93px 29px rgba(0, 0, 0, 0.75) inset;
@@ -14,8 +12,6 @@
 	font-family:        'minecraft', serif;
 	font-weight:        bold;
 	justify-content:    space-between;
-	margin:             0 9vw;
-	min-height:         84vh;
 }
 
 .commandCraftor-main *::-webkit-scrollbar {
@@ -44,7 +40,6 @@
 }
 
 .commandCraftor-description {
-	align-items:     center;
 	display:         flex;
 	flex-grow:       1;
 	font-size:       1.5rem;
@@ -113,4 +108,10 @@
 
 .mc-button.lang .title {
 	padding-bottom: 0;
+}
+
+@media (max-width: 1100px) {
+	.commandCraftor-description {
+		width: 90%;
+	}
 }

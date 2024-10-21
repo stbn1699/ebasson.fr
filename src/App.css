@@ -31,12 +31,27 @@ nav ul li a {
 	text-decoration: none;
 }
 
-@media (max-width: 600px) {
-	nav ul {
-		flex-direction: column;
-	}
+.routes-container {
+	border:           1px solid rgba(255, 255, 255, 0.3);
+	border-radius:    16px;
+	box-shadow:       0 4px 30px rgba(0, 0, 0, 0.1);
+	margin:           0 9vw;
+	min-height:       84vh;
+	overflow:         hidden;
+	display:          flex;
+	flex-direction:   column;
+	height:           100%;
+}
 
-	nav ul li {
-		margin: 0.5rem 0;
+.routes-container > * {
+	flex-grow: 1;
+	display:  flex;
+	flex-direction: column;
+}
+
+@media (max-width: 730px) {
+	.routes-container {
+		margin:     1vw;
+		min-height: 89vh;
 	}
 }

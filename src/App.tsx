@@ -12,13 +12,15 @@ function App() {
 	return (
 		<Router>
 			<Header/>
-			<Routes>
-				<Route path="/" element={<Home/>}/>
-				<Route path="/shareCookBook" element={<ShareCookBook/>}/>
-				<Route path="/mythorium" element={<Mythorium/>}/>
-				<Route path="/commandCraftor" element={<CommandCraftor/>}/>
-				<Route path="/contact" element={<Contact/>}/>
-			</Routes>
+			<div className="routes-container">
+				<Routes>
+					<Route path="/" element={<Home/>}/>
+					<Route path="/shareCookBook" element={<ShareCookBook/>}/>
+					<Route path="/mythorium" element={<Mythorium/>}/>
+					<Route path="/commandCraftor" element={<CommandCraftor/>}/>
+					<Route path="/contact" element={<Contact/>}/>
+				</Routes>
+			</div>
 		</Router>
 	);
 }

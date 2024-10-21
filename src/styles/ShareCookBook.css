@@ -2,16 +2,11 @@
 
 .sharecookbook-main {
 	background-color: #F2E8CF;
-	border:           1px solid rgba(255, 255, 255, 0.3);
-	border-radius:    16px;
-	box-shadow:       0 4px 30px rgba(0, 0, 0, 0.1);
 	display:          flex;
 	flex-direction:   column;
 	font-family:      'Josefin Slab', serif;
 	font-weight:      bold;
 	justify-content:  space-between;
-	margin:           0 9vw;
-	min-height:       84vh;
 }
 
 .sharecookbook-title {
@@ -26,7 +21,6 @@
 }
 
 .sharecookbook-description {
-	align-items:     center;
 	display:         flex;
 	flex-grow:       1;
 	font-size:       1.5rem;
