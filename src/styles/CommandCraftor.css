@@ -60,10 +60,10 @@
 
 .commandCraftor-buttons {
 	display:         flex;
+	gap:             2rem;
 	height:          10vh;
 	justify-content: center;
 	width:           100%;
-	gap: 2rem;
 }
 
 .mc-button.btn-taille-square .title {

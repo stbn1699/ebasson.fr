@@ -1,8 +1,8 @@
 @font-face {
 	font-family: 'Josefin Slab';
-	font-style: normal;
+	font-style:  normal;
 	font-weight: 500;
-	src: url('typo/JosefinSlab.woff2') format('woff2');
+	src:         url('typo/JosefinSlab.woff2') format('woff2');
 }
 
 @font-face {
