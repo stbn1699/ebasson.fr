@@ -1,5 +1,5 @@
 body {
-	background-color: #363636; /* Gray background */
+	background-color: #363636;
 	background-image: radial-gradient(circle, #808080 1px, transparent 1px);
 	background-size:  2rem 2rem;
 	font-family:      'Cascadia Code', serif;

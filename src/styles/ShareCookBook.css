@@ -15,9 +15,9 @@
 }
 
 .sharecookbook-title {
-	background:    #6A994E; /* Fond vert */
+	background:    #6A994E;
 	border-radius: 16px 16px 0 0;
-	color:         #F2E8CF; /* Couleur beige */
+	color:         #F2E8CF;
 	font-size:     4rem;
 	margin:        0;
 	padding:       2.2vh 0 .5rem;
@@ -33,7 +33,7 @@
 	justify-content: center;
 	line-height:     1.6;
 	margin:          0 auto;
-	max-height:      50vh; /* Define a maximum height */
+	max-height:      50vh;
 	overflow:        auto;
 	text-align:      justify;
 	width:           45vw;
@@ -61,7 +61,7 @@
 }
 
 .sharecookbook-buttons button:hover {
-	background-color: #557A3E; /* Couleur plus foncée pour le survol */
+	background-color: #557A3E;
 }
 
 @media (max-width: 1030px) {
