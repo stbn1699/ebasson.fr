@@ -19,10 +19,10 @@ const Mythorium: React.FC = () => {
 				infinie, en contribuant eux aussi à l'expansion de ce monde en
 				constante évolution.</p>
 			<div className="mythorium-buttons">
-				<a onClick={() => window.open("https://mythorium.ebasson.fr/", "_blank")}>
+				<a id="project-button" data-umami-event="mythorium-project" onClick={() => window.open("https://mythorium.ebasson.fr/", "_blank")}>
 					Accéder au projet
 				</a>
-				<a onClick={() => window.open("https://github.com/stbn1699/Mythorium", "_blank")}>
+				<a id="github-button" data-umami-event="mythorium-github" onClick={() => window.open("https://github.com/stbn1699/Mythorium", "_blank")}>
 					Accéder au GitHub
 				</a>
 			</div>

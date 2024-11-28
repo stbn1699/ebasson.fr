@@ -1,6 +1,7 @@
 import React from "react";
 import "../styles/CommandCraftor.css";
 
+
 const CommandCraftor: React.FC = () => {
 	return (
 		<main className="commandCraftor-main">
@@ -18,12 +19,12 @@ const CommandCraftor: React.FC = () => {
 			<div className="commandCraftor-buttons">
 				<div className="McButtons" data-testid="ButtonsJavaEdition">
 					<div className="mc-button full" onClick={() => window.open("https://commandcraftor.ebasson.fr/", "_blank")}>
-						<div className="title">Acceder au projet</div>
+						<div className="title" id="project-button" data-umami-event="commandCraftor-project">Acceder au projet</div>
 					</div>
 				</div>
 				<div className="McButtons" data-testid="ButtonsJavaEdition">
 					<div className="mc-button full" onClick={() => window.open("https://github.com/ESI4-2024-2025/command_craftor", "_blank")}>
-						<div className="title">Acceder au GitHub</div>
+						<div className="title" id="github-button" data-umami-event="commandCraftor-github">Acceder au GitHub</div>
 					</div>
 				</div>
 			</div>

@@ -17,10 +17,10 @@ const ShareCookBook: React.FC = () => {
 				de plats délicieux.
 			</p>
 			<div className="sharecookbook-buttons">
-				<button onClick={() => window.open("https://sharecookbook.ebasson.fr/", "_blank")}>
+				<button id="project-button" data-umami-event="ShareCookBook-project" onClick={() => window.open("https://sharecookbook.ebasson.fr/", "_blank")}>
 					Accéder au projet
 				</button>
-				<button onClick={() => window.open("https://github.com/stbn1699/ShareCookbook", "_blank")}>
+				<button id="project-button" data-umami-event="ShareCookBook-project" onClick={() => window.open("https://github.com/stbn1699/ShareCookbook", "_blank")}>
 					Accéder au GitHub
 				</button>
 			</div>
